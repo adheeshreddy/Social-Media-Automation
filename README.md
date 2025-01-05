@@ -7,7 +7,22 @@ This project automates posting to Twitter, Facebook, and Instagram using their r
 - **Facebook**: Post text, images, and videos to Facebook using the Graph API.
 - **Instagram**: Post images and videos to Instagram using Instaloader (non-official API).
 
----
+# outputs :
+
+twitter test account link : [Follow me on X](https://x.com/adhitestaccount)
+
+![Screenshot (1228)](https://github.com/user-attachments/assets/07677273-3e7c-4214-b816-f1a3723b6da4)
+
+![Screenshot (1229)](https://github.com/user-attachments/assets/56f36b80-8b51-4145-956c-354f76fa0d9b)
+
+![Screenshot (1230)](https://github.com/user-attachments/assets/bfcba2f5-9ffb-48c0-94f1-c8005eefa2cb)
+
+Instagram test account outputs :
+
+![Screenshot (1222)](https://github.com/user-attachments/assets/fb5e3d5e-ca91-4e2f-af86-fbb5d4f813e7)
+
+![Screenshot (1223)](https://github.com/user-attachments/assets/a100c861-10da-4a8a-80ee-4557a7e95c14)
+
 
 ## Getting Started
 
@@ -19,10 +34,9 @@ You will need the following to run this project:
 - API credentials for Twitter, Facebook, and Instagram
   
 install necessary dependencies:
-tweepy for interacting with Twitter's API
-facebook-sdk for Facebook's Graph API
-instaloader for Instagram media upload
-
+tweepy for interacting with Twitter's API ,
+facebook-sdk for Facebook's Graph API ,
+instaloader for Instagram media upload .
 
 Configuration
 You need to set up API credentials for each platform:
