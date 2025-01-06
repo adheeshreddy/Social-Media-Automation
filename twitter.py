@@ -10,11 +10,7 @@ import instaloader # type: ignore
 # access_token = '<ACCESS_TOKEN>'
 # access_token_secret = '<ACCESS_TOKEN_SECRET>'
 # bearer_token = '<BEARER_TOKEN>'
-consumer_key = '1vdru0PAYpHJgPz9tg6QHP6vm'
-consumer_secret = 's5j4CKKd39vgnkicYwuxcdU7144gbX88KFrAzjGawAH0ULdSPv'
-access_token = '1875815433355587584-y8jWVAore1Pf8UTFg314zHF0UviuIR'
-access_token_secret = 'pYVgw9b69Wnl8w9jBE3869jU5NFdWQXTYoARhS3NosHK9'
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAN6%2FxwEAAAAAJmtocC7FdjKjZwkyk5Tpmd%2B2t2E%3DFaeaLwErfgLY5CZoXLLpsbDn9QGzx5bVZrvvS70w9PHeRONEQw'
+
 
 # Instagram credentials
 # insta_username = "YOUR_INSTAGRAM_USERNAME"
