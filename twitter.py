@@ -72,7 +72,7 @@ def post_to_twitter(text, image_path=None, video_path=None):
    
 
 # Function to post to Instagram
-def post_to_instagram(text, image_path=None, video_path=None):
+# def post_to_instagram(text, image_path=None, video_path=None):
     try:
         if image_path:
             post = instaloader.Post.from_media_id(L.context, media_id=image_path)
