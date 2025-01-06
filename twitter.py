@@ -2,17 +2,19 @@ import tweepy # type: ignore
 import facebook # type: ignore
 import instaloader # type: ignore
 
+
 # Replace with your actual credentials
 # Twitter credentials
-consumer_key = '<CONSUMER_KEY>'
-consumer_secret = '<CONSUMER_SECRET>'
-access_token = '<ACCESS_TOKEN>'
-access_token_secret = '<ACCESS_TOKEN_SECRET>'
-bearer_token = '<BEARER_TOKEN>'
-
-
-# Facebook credentials
-# fb_access_token = "YOUR_FACEBOOK_ACCESS_TOKEN"  # Use long-lived access token for better stability
+# consumer_key = '<CONSUMER_KEY>'
+# consumer_secret = '<CONSUMER_SECRET>'
+# access_token = '<ACCESS_TOKEN>'
+# access_token_secret = '<ACCESS_TOKEN_SECRET>'
+# bearer_token = '<BEARER_TOKEN>'
+consumer_key = '1vdru0PAYpHJgPz9tg6QHP6vm'
+consumer_secret = 's5j4CKKd39vgnkicYwuxcdU7144gbX88KFrAzjGawAH0ULdSPv'
+access_token = '1875815433355587584-y8jWVAore1Pf8UTFg314zHF0UviuIR'
+access_token_secret = 'pYVgw9b69Wnl8w9jBE3869jU5NFdWQXTYoARhS3NosHK9'
+bearer_token = 'AAAAAAAAAAAAAAAAAAAAAN6%2FxwEAAAAAJmtocC7FdjKjZwkyk5Tpmd%2B2t2E%3DFaeaLwErfgLY5CZoXLLpsbDn9QGzx5bVZrvvS70w9PHeRONEQw'
 
 # Instagram credentials
 # insta_username = "YOUR_INSTAGRAM_USERNAME"
@@ -65,24 +67,9 @@ def post_to_twitter(text, image_path=None, video_path=None):
     except Exception as e:
         print(f"Error posting to Twitter: {e}")
 
-# Function to post to Facebook
-def post_to_facebook(text, image_path=None, video_path=None):
-    try:
-        graph = facebook.GraphAPI(access_token=fb_access_token, version="v17.0")
 
-        if image_path:
-            with open(image_path, 'rb') as f:
-                graph.put_photo(image=f, message=text)
-        elif video_path:
-            with open(video_path, 'rb') as f:
-                video_url = graph.put_video(video=f, title="", description=text)['url']
-                graph.publish(message=text, link=video_url)
-        else:
-            graph.publish(message=text)
 
-        print("Posted to Facebook successfully!")
-    except Exception as e:
-        print(f"Error posting to Facebook: {e}")
+   
 
 # Function to post to Instagram
 def post_to_instagram(text, image_path=None, video_path=None):
@@ -101,13 +88,12 @@ def post_to_instagram(text, image_path=None, video_path=None):
         print(f"Error posting to Instagram: {e}")
 
 # Example usage
-text = "This is a test post!"
+text = "hi iam taking about signitives "
 
 # Replace with your image or video paths
 image_path = "download.jpg"
 video_path = "hello.mp4"
 
 # Posting to Twitter, Facebook, and Instagram
-post_to_twitter(text,video_path=video_path)  # or video_path=video_path
-# post_to_facebook(text, image_path=image_path)  # or video_path=video_path
+post_to_twitter(text)  # or video_path=video_path
 # post_to_instagram(text, image_path=image_path)  # or video_path=video_path
