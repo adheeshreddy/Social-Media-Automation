@@ -23,6 +23,15 @@ Instagram test account outputs :
 
 ![Screenshot (1223)](https://github.com/user-attachments/assets/a100c861-10da-4a8a-80ee-4557a7e95c14)
 
+Facebook test account page outputs :
+
+![Screenshot (1243)](https://github.com/user-attachments/assets/3c296353-c3ad-4a84-8a3a-ba408ae14ac3)
+
+![Screenshot (1245)](https://github.com/user-attachments/assets/bedea32d-5b01-4b67-9785-e23174c69b02)
+
+![Screenshot (1246)](https://github.com/user-attachments/assets/e8d1b26f-9f43-497f-978d-0bc2b7ee5c78)
+
+facebook test page link : [Facebook test page](https://www.facebook.com/profile.php?id=61571816631005)
 
 ## Getting Started
 
@@ -57,6 +66,11 @@ Go to the Facebook Developer Portal.
 Create a new app and get a long-lived access token for Facebook Graph API.
 Replace fb_access_token in the code with your Facebook API token.
 
+![Screenshot (1241)](https://github.com/user-attachments/assets/8bcac5d1-b2f3-4872-92f0-f0bd234c895c)
+
+tutorial to get access token : [Watch the Video on YouTube](https://www.youtube.com/watch?v=nPOgLZuuURs)
+
+
 5. Instagram Setup:
 Instagram requires you to have an Instagram Developer account and a Business account for posting.
 For this project, you can use Instaloader (an unofficial API) for uploading images and videos.
@@ -80,4 +94,17 @@ post_to_facebook(text, image_path=image_path)
 post_to_instagram(text, image_path=image_path)
 
 You can pass text, image_path, or video_path depending on your needs.
+
+# Limit rates :
+
+-> for Twitter API :
+
+![Screenshot 2025-01-07 023717](https://github.com/user-attachments/assets/792d9d38-16d9-4bfc-abe8-c0f0c156a878)
+
+-> for Facebook Graph API :
+
+![Screenshot 2025-01-07 023837](https://github.com/user-attachments/assets/8ddab6a3-a62a-4c9c-8b42-073823e968ec)
+
+
+
 
