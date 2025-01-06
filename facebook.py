@@ -1,7 +1,7 @@
 import requests
 
 # Your Access Token and Page ID
-access_token = 'EAAPyrCXa78EBO8lu2vASkV87aFx5Fp5ieBB7o2xZAiVsgoiyOs0PZClyuwLctt2KYiUjNavzmv182SZBkPrjr9ZClEOkmwZATdrsSTePEvJZC8ZCpzUM2IiXMhnBoARfO2NqvjPxmNpCjLuzwtnuNwOQ3vWlcIz6QQKpsiVyNcV2gZBErCqpsqXh96sEKUyNmzZAZAHr618e2wErrT7Rc2Q1ZA74rG8'
+access_token = 'EAAPyrCXa78EBOZCQn8hSWsoEXkTeVfo2GystnWKZAeSCPdHXGC0ZBAEmjQsTUMtxezOyrT1alxpnmpSnIy5bFIlZBW7IzJj2kEEOKZCg8tTqwEedS6Rl6aXa6hklIjzruFJ2TC0Fam1R9q2orvigWhKuXKxjm12AQ9vC9hSyj3ZCdp1spJodZCGmZBzzOYDrUuxsxk7CQJGzaA9NYpd2Qiu3CPum'
 page_id = '559607547229238'
 
 # Post Text
@@ -37,8 +37,8 @@ def post_video(video_path, description):
         print(f"Error: {response.status_code}, {response.text}")
 
 # Call all functions to post
-# post_text('Hello, this is a test post!')
+post_text('Hello, this is 2nd test post!')
 # post_image('signitives.jpg', 'This is an image post')
-post_video('hello.mp4', 'This is a test video post')
+# post_video('hello.mp4', 'This is a test video post')
 
 # this is the page link : https://www.facebook.com/profile.php?id=61571816631005
