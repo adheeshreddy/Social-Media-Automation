@@ -1,9 +1,8 @@
 import requests
 
 # Your Access Token and Page ID
-access_token = 'EAAPyrCXa78EBOZCQn8hSWsoEXkTeVfo2GystnWKZAeSCPdHXGC0ZBAEmjQsTUMtxezOyrT1alxpnmpSnIy5bFIlZBW7IzJj2kEEOKZCg8tTqwEedS6Rl6aXa6hklIjzruFJ2TC0Fam1R9q2orvigWhKuXKxjm12AQ9vC9hSyj3ZCdp1spJodZCGmZBzzOYDrUuxsxk7CQJGzaA9NYpd2Qiu3CPum'
-page_id = '559607547229238'
-
+access_token = "your_access_token"
+page_id="your_page_id"
 # Post Text
 def post_text(message):
     url = f'https://graph.facebook.com/{page_id}/feed'
